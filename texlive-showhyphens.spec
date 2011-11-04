@@ -46,6 +46,7 @@ hyphenations in the printed output.
 %doc %{_texmfdistdir}/doc/lualatex/showhyphens/showhyphens-doc.pdf
 %doc %{_texmfdistdir}/doc/lualatex/showhyphens/showhyphens-doc.tex
 %doc %{_texmfdistdir}/doc/lualatex/showhyphens/showhyphens-sample.pdf
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -56,3 +57,5 @@ hyphenations in the printed output.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
