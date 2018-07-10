@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-showhyphens
 Version:	0.5c
-Release:	1
+Release:	2
 Summary:	Show all possible hyphenations in LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/showhyphens
