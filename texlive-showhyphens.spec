@@ -9,7 +9,7 @@ Version:	0.5c
 Release:	4
 Summary:	Show all possible hyphenations in LuaLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/showhyphens
+URL:		https://www.ctan.org/tex-archive/macros/luatex/latex/showhyphens
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/showhyphens.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/showhyphens.doc.tar.xz
